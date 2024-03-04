@@ -1,0 +1,52 @@
+.header__sticky {
+  display: flex;
+  position: sticky;
+  gap: 200px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+  padding: 20px 10%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+.header__left {
+  display: flex;
+  gap: 68px;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.header__mega {
+  display: flex;
+  color: var(--title);
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.header__navigation-item {
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease;
+}
+
+.header__navigation-item:hover {
+  color: var(--dark-title);
+  cursor: pointer;
+}
+
+
+.header__search-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}

@@ -1,0 +1,41 @@
+.single {
+  padding: 30px;
+}
+
+.single__title {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--title);
+  margin-bottom: 30px;
+}
+
+.single__image img {
+  border-radius: 12px;
+  width: 1072px;
+  height: 598px;
+}
+
+.single__info {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  text-transform: capitalize;
+  color: var(--black-75);
+}
+
+.single__content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  text-transform: lowercase;
+  color: var(--black);
+}
+
+.single__date-img {
+  margin-right: 10px;
+
+}
