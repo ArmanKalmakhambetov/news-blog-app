@@ -11,7 +11,7 @@ export function formatDate(isoDate) {
       break;
 
     case "3":
-      month = "Март";
+      month = "Марта";
       break;
 
     case "4":
